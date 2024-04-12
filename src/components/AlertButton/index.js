@@ -1,16 +1,12 @@
-import './botao.css';
+import './index.css';
 import PropTypes from 'prop-types';
-
-const showLabel = (label) => {
-  alert(`A label desse botão é '${label}'`);
-};
 
 const Button = ({ label }) => {
   return (
     <button
       className="btn"
       onClick={() => {
-        showLabel(label);
+        alert(`A label deste botão é '${label}'`);
       }}
     >
       {label}
@@ -23,7 +19,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  label: 'ReactNative',
+  label: 'React',
 };
 
 export default Button;

@@ -1,10 +1,10 @@
-import './texto.css';
+import './index.css';
 import PropTypes from 'prop-types';
 
 const Texto = ({ color, transform }) => {
   return (
     <p className="text" style={{ color: color, textTransform: transform }}>
-      Este é um parágrafo
+      Este é um parágrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     </p>
   );
 };
@@ -15,7 +15,7 @@ Texto.propTypes = {
 };
 
 Texto.defaultProps = {
-  color: 'red',
+  color: '#ffffff',
   transform: 'uppercase',
 };
 

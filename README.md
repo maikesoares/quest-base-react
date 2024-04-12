@@ -10,12 +10,12 @@ a resolver essa quest utilizando o React App.
 
 Confira as Quests abaixo:
 
-[<img src="./src/images/Desafio1.png" alt="Primeira Quest">]
-[<img src="./src/images/Desafio2.png" alt="Segunda Quest">]
+[<img src="./public/images/Desafio1.png" alt="Primeira Quest">]
+[<img src="./public/images/Desafio2.png" alt="Segunda Quest">]
 
 Resolução:
 
-[<img src="./src/images/questResolvida.gif" alt="Resolução das Quests">]
+[<img src="./public/images/questResolvida.gif" alt="Resolução das Quests">]
 
 ## Tecnologias utilizadas:
 
